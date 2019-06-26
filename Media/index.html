@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Games</title>
+</head>
+
+<body>
+    <script>
+        var media
+        var nota1
+        var nota2
+        var nota3
+
+        alert("Calculador de Media")
+        nota1 = prompt("qual sua 1 nota")
+        nota1 = parseInt(nota1)
+
+        nota2 = prompt("qual sua 2 nota")
+        nota2 = parseInt(nota2)
+        
+        nota3 = prompt("qual sua 3 nota")
+        nota3 = parseInt(nota3)
+        
+    media = (nota1+nota2+nota3)/3
+
+
+    if(media < 7){
+        alert("Sua media está baixa " + media)
+    }else if (media >= 7){
+        alert("Sua media está boa " + media)
+    }
+
+    </script>
+</body>
+
+</html>
